@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './component/Home/Home'
+import Header from './component/Home/Header';
+import profile from './component/Home/profile';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Abhishek Parmar</h1>
-    </div>
-  );
+            <>
+            <Header />
+            <Home />
+            <profile />
+            </>
+          );
 }
 
 export default App;
